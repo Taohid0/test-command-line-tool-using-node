@@ -1,5 +1,5 @@
 {
-  "name": "test-command-line-tool-using-node",
+  "name": "contacto",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,6 +9,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "preferGlobal": true,
+  "bin": "./contact.js",
   "dependencies": {
     "commander": "^3.0.1",
     "inquirer": "^7.0.0",
